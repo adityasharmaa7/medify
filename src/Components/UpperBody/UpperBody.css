@@ -1,0 +1,13 @@
+.upperBodyContainer{
+    position: relative;
+}
+.searchBoxContainer{
+    position: relative;
+    top: -6vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.navbar-heroSection-container{
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    padding: 1% 5% 1% 5%;
+}

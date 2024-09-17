@@ -1,0 +1,122 @@
+#searchState{
+    background: transparent url(../../../Assets/Search.png) no-repeat 2px;
+    padding-left: 30px;
+    width: 285px;
+    height: 50px;
+    border-radius: 8px ;
+    border: 1px ;
+    border: 1px solid rgba(240, 240, 240, 1);
+}
+#searchCity{
+    background: transparent url(../../../Assets/Search.png) no-repeat 2px;
+    padding-left: 30px;
+    width: 285px;
+    height: 50px;
+    border-radius: 8px ;
+    border: 1px ;
+    border: 1px solid rgba(240, 240, 240, 1);
+}
+#searchButton{
+    width: 121px;
+    height: 50px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    padding-left: 1%;
+    background: rgba(42, 168, 255, 1);
+    color: white;
+}
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 6%;
+    margin-top: 5vh;
+}
+.middleText p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: rgba(16, 40, 81, 1);
+}
+.searchBox{
+    border-radius: 15px;
+    border: 1px solid rgba(240, 240, 240, 1);
+    box-shadow: 0px 0px 12px -6px;
+    padding-bottom: 5vh;
+    background: white;
+    padding-top: 5%;
+}
+.card p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(171, 182, 199, 1);
+}
+.card div{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background: rgba(250, 251, 254, 1);
+    width: 203px;
+    height: 153px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+    cursor: pointer;
+    border: 1px solid rgba(42, 167, 255, 1);
+    background: rgba(42, 167, 255, 0.08);
+}
+.cardBody{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width:944px) {
+    .searchBar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #searchState{
+        margin-top: 5vh;
+        width: 75%;
+    }
+    #searchCity{
+        margin-top: 5vh;
+        width: 75%;
+    }
+    #searchButton{
+        margin-top: 5vh;
+        width: 75%;
+    }
+}
+@media (max-width:1300px) {
+    .cardBody{
+        flex-wrap: wrap;
+        gap: 5vh;
+        justify-content: center;
+    }
+
+}

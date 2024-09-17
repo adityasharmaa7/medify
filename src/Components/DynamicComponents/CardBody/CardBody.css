@@ -1,0 +1,105 @@
+.CardBody-Upper{
+    display: flex;
+    gap: 30px;
+    color: rgba(255, 255, 255, 1);
+    padding: 24px;
+    border-radius: 15px;
+}
+.CardBody-Details{
+    display: flex;
+    gap: 30px;
+}
+.Card-Image-Hospital{
+    position: relative;
+    top: 20px;
+}
+#Hospital-Card-Image-1{
+    position: relative;
+}
+#Hospital-Card-Image-2{
+    position: absolute;
+    left: 22px;
+    top: 13px;
+}
+#Hospital-Card-Image-3{
+    position: absolute;
+    left: 109px;
+    top: 70px;
+}
+#Card-Content-Hospital-1{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(20, 190, 240, 1);
+}
+#Card-Content-Hospital-2{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(65, 65, 70, 1);
+    margin-bottom: 0%;
+}
+#Card-Content-Hospital-3{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color:rgba(65, 65, 70, 1) ;
+    margin-top: 0%;
+}
+#Card-Content-Hospital-4{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(2, 164, 1, 1);
+}
+#Card-Content-Hospital-5{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(120, 120, 135, 1);
+    text-decoration: line-through;
+}
+#Card-Content-Hospital-6{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(65, 65, 70, 1);
+}
+.Like-Box{
+    background: rgba(0, 165, 0, 1);
+    width: 44px;
+    height: 22px;
+    padding: 4.5px 7.49px 4px 10.8px;
+    gap: 8px;
+    border-radius: 3.5px;
+    display: flex;
+    margin-top: 25px;
+}
+.Like-Box span{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    align-content: center;
+}
+.Hospital-Booking-Button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+.Hospital-Booking-Button p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(1, 164, 0, 1);
+}
+.Hospital-Booking-Button button{
+    background: rgba(42, 167, 255, 1);
+    border: 1px solid rgba(20, 190, 240, 1);
+    width: 212px;
+    height: 40px;
+    padding: 9.62px 28.55px 9.38px 29.45px;
+    border-radius: 4px;
+}

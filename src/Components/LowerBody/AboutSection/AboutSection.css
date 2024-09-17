@@ -1,0 +1,102 @@
+.about-section-body{
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    display: flex;
+    gap: 30px;
+    padding: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about-section-info{
+    width: 40%;
+    padding-top: 17%;
+}
+#about-section-line-1{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(42, 167, 255, 1);
+    margin: 0%;
+}
+#about-section-line-2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    color: rgba(27, 60, 116, 1);
+    margin: 0%;
+}
+#about-section-line-3{
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 40.8px;
+    color: rgba(119, 130, 157, 1);
+    margin: 0%;
+}
+.about-section-cards{
+    display: flex;
+    flex-direction: column;
+}
+.card-body-outer{
+    display: flex;
+    gap: 50px;
+}
+.about-section-card-body{
+    background: rgba(255, 255, 255, 1);
+    width: 242.5px;
+    height: 304px;
+    border-radius: 8px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about-section-card-inner{
+    text-align: center;
+}
+.about-section-card-inner img{
+    width: 100px;
+    height: 100px;
+}
+.about-section-card-inner p{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: rgba(27, 60, 116, 1);
+    margin: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.about-section-card-inner span{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(119, 130, 157, 1);
+}
+
+@media (max-width:1113px) {
+    .about-section-info{
+        width: 100%;
+        padding-top: 0%;
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+}
+
+@media (max-width:944px){
+    .card-body-outer{
+        flex-direction: column;
+    }
+    .about-section-cards{
+        gap: 50px;
+    }
+    .about-section-card-body{
+        margin: 0% !important;
+    }
+}

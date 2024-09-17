@@ -1,0 +1,50 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-slide {
+    width: 80%;
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  }
+  .swiper-pagination{
+    position: relative !important;
+    margin-top: 20px !important;
+  }
+  .second-carousal{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+  .carousal-outer-body p{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(27, 60, 116, 1);
+  }
+  .carousal-outer-body{
+    padding: 5%;
+  }

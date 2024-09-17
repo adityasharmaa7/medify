@@ -1,0 +1,60 @@
+.specialisation-container{
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    padding-bottom: 30px;
+    padding: 5%;
+}
+.specialisation-container p{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(27, 60, 116, 1);
+    padding-top: 40px;
+}
+.specialisation-handles img{
+    height: 80px;
+    width: 80px;
+}
+.specialisation-handles span{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(171, 182, 199, 1);
+}
+.specialisation-handles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 70px 22px 70px;
+    border-radius: 10px;
+    box-shadow: 0px 34px 44px 0px rgba(213, 219, 228, 0.44);
+    background: rgba(255, 255, 255, 1);
+    width: 180px;
+    height: 180px;
+}
+.specialisation-handles-body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.view-all button{
+    background: rgba(42, 168, 255, 1);
+    width: 147px;
+    height: 50px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    border: none;
+}
+.view-all{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

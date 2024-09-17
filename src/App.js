@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'
+import {
+  Box,
+  Typography,
+} from "@mui/material";
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import Home from './Home/Home';
+import SearchPage from './SearchPage/SearchPage';
+import MyBooking from './MyBooking/MyBooking';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+      <Box p={1} bgcolor="primary.main">
+        <Typography fontSize={14} textAlign="center" color="#fff">
+          The health and well-being of our patients and their health care team
+          will always be our priority, so we follow the best practices for
+          cleanliness.
+        </Typography>
+      </Box>
+        <Routes>
+          <Route path='/' element={<Home/>}></Route>
+          <Route path='search' element={<SearchPage/>}></Route>
+          <Route path='my-bookings' element={<MyBooking/>}></Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,24 @@
+.swiperslide {
+    overflow: hidden;
+}
+
+.swiperStyles {
+    width: 100%;
+}
+
+@media(max-width:900px) {
+    .swiperStyles {
+        padding: 0;
+    }
+    .swiperslide {
+        width: calc(100% / 1 - 10px);
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media(max-width:1300px){
+    .swiperslide {
+        width: calc(100% / 3 - 10px);
+        /* xs: 'none', */
+    }
+}

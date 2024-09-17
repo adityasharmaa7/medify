@@ -1,0 +1,86 @@
+#line1{
+    font-family: Poppins;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    color: #102851;
+}
+#line2{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+}
+#line3{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    color: #2AA7FF;
+}
+#line4{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #5C6169;
+    /* position: relative;
+    top: 16px; */
+
+}
+.heroText button{
+    background: #2AA8FF;
+    padding: 12px 36px 12px 36px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    /* position: relative;
+    top: 30px; */
+}
+.heroText{
+    margin-top: 5%;
+    /* position: relative; */
+}
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+}
+.heroImage img{
+    width: 100%;
+    /* object-fit: cover; */
+    width: 585px;
+    height: 481px;
+}
+.heroImage{
+    margin-top: 2%;
+    filter: drop-shadow(0px 15px 20px #00000059);
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:944px) {
+    /* .heroSection{
+        display: block;
+    } */
+    .heroImage{
+        margin-top: 7%;
+    }
+    .heroImage img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+@media (max-width:1300px) {
+    .heroSection{
+        flex-direction: column;
+    }
+}

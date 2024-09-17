@@ -1,0 +1,72 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    position: relative;
+    text-align: center;
+}
+.logoImg{
+    position: relative;
+    top: 5px;
+}
+.logoName{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 4px;
+    color: #2AA8FF;
+}
+.buttons {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    border: none;
+    background: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #102851;
+}
+.bookingbutton{
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    background: #2AA8FF;
+    border: none;
+}
+.navbarToggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+.navbarToggle .bar {
+    width: 25px;
+    height: 4px;
+    background-color:black;
+    margin: 3px ;
+  }
+
+@media (max-width:944px) {
+    .handles{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+    .handles.active{
+        display: flex;
+        margin-top: 5vh;
+    }
+    .navbarToggle {
+        display: flex;
+    }
+    .buttons {
+        text-align:center;
+        padding: 12px 0;
+    }
+    .bookingbutton.active{
+        width: 100%;
+    }
+}
